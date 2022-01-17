@@ -8,6 +8,8 @@ image:
   repository: nginx
   tag: stable
   pullPolicy: IfNotPresent
+  yelb_ui:
+    image: harbor-1.haas-461.pez.vmware.com/yelb/yelb-ui:0.7
 
 service:
   type: LoadBalancer
